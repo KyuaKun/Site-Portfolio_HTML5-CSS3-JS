@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link-port {
+    color: black;
+}
+
+#link-port:visited {
+    color: black;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+h2 {
+    color: #1893A5;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 21px;
+}
+
+.clear-both {
+    /* clear: both; */
+}
+
+/* <!-- GLOBAL-BOX / INICIO --> */
+
+#global-box {
+    min-width: 740px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* min-height: 130em; */
+}
+
+/* <!-- GLOBAL-BOX / FIM --> */
+
+
+/* <!-- BARRA PRETA SUPERIOR / INICIO  --> */
+
+
+#black-logo-bar {
+    width: auto;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#black-left-side {
+    width: 50%;
+}
+
+#logo-isabella {
+    width: 50%;
+    min-width: 50%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    left: 25%;
+    line-height: 90px;
+}
+
+#black-right-side {
+    width: 50%;
+}
+
+#logo-icone-insta {
+    width: 10%;
+    min-width: 80px;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    line-height: 85px;
+}
+
+
+/* <!-- BARRA PRETA SUPERIOR / FIM  --> */
+
+
+
+/* <!-- BARRA AZUL NAVEGAÇÃO / INICIO  --> */
+
+
+#blue-nav {
+    width: auto;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: #43DEFA;
+}
+
+#left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.option {
+    border: 2px solid whitesmoke;
+    border-radius: 3px;
+    height: 94%;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.option:hover {
+    background-color: #61E3FA;
+}
+
+
+/* <!-- BARRA AZUL NAVEGAÇÃO / FIM  --> */
+
+
+
+
+/* <!-- CONTEÚDO-CENTRAL GLOBAL / INICIO --> */
+#middle-box {
+    height: auto;
+    margin: 0px 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <!-- CONTEÚDO-CENTRAL GLOBAL / FIM --> */
+
+
+
+
+/* <!-- CONTEÚDO SOBRE MIM / INICIO --> */
+#about-me-title {
+    width: 100%;
+}
+
+#img-isa {
+    position: relative;
+    border: 4px solid #43DEFA;
+    border-radius: 300px;
+    top: 30px;
+}
+
+#about-me-title {
+    display: flex;
+}
+
+#photo-and-txt {
+    height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#about-me-photo {
+    flex-grow: 1;
+}
+
+#about-me-txt {
+    width: 60%;
+    height: 280px;
+    min-height: 280px;
+    min-width: 60%;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+#about-me-txt-p {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/* <!-- CONTEÚDO SOBRE MIM / FIM --> */
+
+
+
+
+/* <!-- CONTEÚDO PORTFÓLIO / INICIO --> */
+
+#portfolio-content {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#title-portfolio {
+    display: flex;
+}
+
+#all-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    border: 3px dotted #43DEFA;
+    border-radius: 9px;
+    width: 240px;
+    height: 325px;
+    margin: 55px 20px;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgs-port1 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/instagram-social-media-ps.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port2 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/cardapio-gourmet-ps.jpg) no-repeat;
+    margin-left: 30px;
+
+}
+
+#imgs-port3 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/acabamentos-geograficos-ps.jpg) no-repeat;
+    margin-left: 30px;
+
+}
+
+#imgs-port4 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/arcade-diagram-ps.jpg) no-repeat;
+    margin-left: 30px;
+
+}
+
+#imgs-port5 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/projeto-fotografico-ps.jpg) no-repeat;
+    margin-left: 30px;
+
+}
+
+#imgs-port6 {
+    width: 100%;
+    height: 310px;
+    z-index: 2;
+    background: url(imagens-isabeline/modelagem3D-ps.jpg) no-repeat;
+    margin-left: 30px;
+
+}
+
+#imgs-port1:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/social-midia-opacidade-ps.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port2:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/cardapio-gourmet-opacidade.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port3:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/processos-geograficos-opacidade-ps.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port4:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/arcade-diagram-opacidade.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port5:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/projeto-fotografico-opacidade.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+#imgs-port6:hover {
+    width: 100%;
+    padding-top: 2px;
+    height: 640px;
+    z-index: 3;
+    background: url(imagens-isabeline/modelagem3D-opacidade.jpg) no-repeat;
+    margin-left: 30px;
+}
+
+/* <!-- CONTEÚDO PORTFÓLIO / FIM --> */
+
+
+/* <!--RODAPÉ / INICIO --> */
+
+#footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background: black;
+}
+
+#copyright {
+    color: #1893A5;
+}
+
+/* <!--RODAPÉ / FIM --> */
