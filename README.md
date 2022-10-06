@@ -4,5 +4,5 @@ Projeto de um web site convertendo conhecimentos que adiquiri em CSS3, HTML5 e J
 projeto feito em: 01/06/2022
 
 <div align="center">
-  <img width="1000px" src="https://user-images.githubusercontent.com/87536346/194340320-e96befad-7726-48d7-bda8-52a051efe562.png">
+  <img width="1000px" src="https://user-images.githubusercontent.com/87536346/194378300-44537595-1bd2-494e-b22e-0dfe9f7c5eb3.gif">
 </div>
