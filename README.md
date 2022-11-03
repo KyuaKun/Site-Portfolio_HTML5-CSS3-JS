@@ -1,5 +1,5 @@
 # Isabella Site -  HTML5 CSS3 e JS
-Projeto de um web site convertendo conhecimentos que adiquiri em CSS3, HTML5 e JS em projeto/trabalho da faculdade para uma amiga. Aqui eu tentei empregar bastante o uso das Flex-box e técnicas de responsividade.
+Projeto de um web site usando CSS, HTML e JS. Aqui eu tentei empregar bastante o uso das Flex-box e técnicas de responsividade.
 
 projeto feito em: 01/06/2022
 
